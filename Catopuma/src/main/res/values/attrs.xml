@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义导航栏-->
+    <declare-styleable name="CustomBackBar">
+        <attr name="backBarImgViewSrc" format="reference"/>
+        <attr name="backTitle" format="string"/>
+        <attr name="backRight" format="string"/>
+        <attr name="backLeft" format="string"/>
+        <attr name="backRightImg" format="reference"/>
+        <attr name="backShowImg" format="boolean"/>
+        <attr name="backBgColor" format="color"/>
+        <attr name="backTitleColor" format="color"/>
+    </declare-styleable>
+
+</resources>

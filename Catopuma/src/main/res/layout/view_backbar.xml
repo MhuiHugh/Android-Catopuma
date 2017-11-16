@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back_bg"
+    android:layout_width="match_parent"
+    android:layout_height="88px"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/back_left_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:paddingLeft="30px"
+        android:paddingRight="50px">
+
+        <ImageView
+            android:id="@+id/back_imgv"
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_back_white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/back_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="33px" />
+
+    <TextView
+        android:id="@+id/back_right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="48px"
+        android:gravity="center_vertical"
+        android:text="右按钮"
+        android:textColor="@color/white"
+        android:textSize="28px" />
+
+    <ImageView
+        android:id="@+id/back_right_iv"
+        android:layout_width="35px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30px" />
+
+</RelativeLayout>

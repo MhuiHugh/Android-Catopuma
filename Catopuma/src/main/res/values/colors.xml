@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--状态栏-->
+    <color name="colorPrimary">#3F51B5</color>
+    <!--ActionBar-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色-->
+    <color name="colorAccent">#FF4081</color>
+
+    <!--commonColor-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="color3">#FF333333</color>
+    <color name="color6">#FF666666</color>
+    <color name="color9">#FF999999</color>
+
+    <color name="common_bg">#FFF5F5F5</color>
+    <color name="common_line">#FFE0E0E0</color>
+
+</resources>
