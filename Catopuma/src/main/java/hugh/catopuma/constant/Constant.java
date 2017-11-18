@@ -9,10 +9,13 @@ import hugh.catopuma.utils.DoubleKeyValueMap;
 public class Constant {
 
     //---------Memory
-    /**内存数据*/
+    /**
+     * 内存数据
+     */
     private static final DoubleKeyValueMap data = new DoubleKeyValueMap();
 
-    public static final String DATA_KEY="data";
+    public static final String DATA_KEY = "data";
+
     public static DoubleKeyValueMap getData() {
         return data;
     }
