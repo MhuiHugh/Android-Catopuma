@@ -128,7 +128,7 @@
 }
 
 #JS接口不混淆
--keep class com.ierfa.utils.MyWebJsInterface{*;}
+-keep class **.utils.MyWebJsInterface{*;}
 
 # 删除代码中Log相关的代码
 #-assumenosideeffects class android.util.Log {
@@ -231,10 +231,6 @@
 -keep class com.huawei.** {*;}
 -keep class org.apache.thrift.** {*;}
 
--keep public class **.R$*{
-   public static final int *;
-}
-
 #友盟分享
 -dontshrink
 -dontoptimize
@@ -306,4 +302,3 @@ public static ** valueOf(java.lang.String);
  }
 
 -keep class com.linkedin.** { *; }
--keepattributes Signature
