@@ -128,7 +128,7 @@
 }
 
 #JS接口不混淆
--keep class com.ierfa.utils.MyWebJsInterface{*;}
+-keep class **.utils.MyWebJsInterface{*;}
 
 # 删除代码中Log相关的代码
 #-assumenosideeffects class android.util.Log {
@@ -222,7 +222,6 @@
 -dontwarn com.xiaomi.**
 -dontwarn com.huawei.**
 
-
 -keep class com.taobao.** {*;}
 -keep class org.android.** {*;}
 -keep class anet.channel.** {*;}
@@ -231,9 +230,6 @@
 -keep class com.huawei.** {*;}
 -keep class org.apache.thrift.** {*;}
 
--keep public class **.R$*{
-   public static final int *;
-}
 
 #友盟分享
 -dontshrink
@@ -259,7 +255,6 @@
 
 -keep public class com.umeng.socialize.* {*;}
 
-
 -keep class com.facebook.**
 -keep class com.facebook.** { *; }
 -keep class com.umeng.scrshot.**
@@ -284,10 +279,6 @@ public static final int *;
 -keep public class com.umeng.soexample.R$*{
 public static final int *;
 }
--keepclassmembers enum * {
-public static **[] values();
-public static ** valueOf(java.lang.String);
-}
 
 -keep class com.tencent.open.TDialog$*
 -keep class com.tencent.open.TDialog$* {*;}
@@ -306,4 +297,3 @@ public static ** valueOf(java.lang.String);
  }
 
 -keep class com.linkedin.** { *; }
--keepattributes Signature
